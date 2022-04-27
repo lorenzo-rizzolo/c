@@ -39,7 +39,6 @@ int main(){
 
     while(!feof(num)){
         fscanf(num,"%d\n",&numero);
-        printf("%d;  ", numero);
         if(numero%2==0){
             fprintf(pari, "%d - ", numero);
         }else{
