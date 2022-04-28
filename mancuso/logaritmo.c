@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "util.h"
 
 void logaritmo(int b, int n){
     int i=0;
