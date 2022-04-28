@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 void ordinamento(int v[], int n){
-    int scambio, i, k;
+    int scambio, i, k, a;
+    a = n;
     n = n-1;
     do{
         scambio=0;
@@ -14,7 +15,7 @@ void ordinamento(int v[], int n){
             }
         }
     }while(scambio==1);
-    for (i=0 ; i<n ; i++){
+    for (i=0 ; i<a ; i++){
         printf("%d  ",v[i]);
     }
     return;
@@ -22,7 +23,7 @@ void ordinamento(int v[], int n){
 
 int main(){
     
-    int v[]={11,2,33,24,15,36,17,8,19,20};
+    int v[]={145,2,35,23,23,78,98,12,3,21};
 
     ordinamento(v,10); //primo termine vettore secondo la sua dimensione
 }
