@@ -14,7 +14,6 @@ void ordinamento(int v[], int n){
             }
         }
     }while(scambio==1);
-    
     for (i=0 ; i<n ; i++){
         printf("%d  ",v[i]);
     }
